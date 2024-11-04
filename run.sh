@@ -1,5 +1,11 @@
+!# /bin/bash
+
 echo "Hello from run.sh"
 echo "This is being run from a Jenkins freestyle job"
 
-touch aa.txt > "hello"
-cat aa.txt
+ls
+mkdir newfolder
+cd newfolder
+touch newfile.txt
+pwd
+ls
